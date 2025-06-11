@@ -1,0 +1,40 @@
+.edu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.edu-title{
+    position: relative;
+}
+.edu-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.edu-level{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.edu-lvl{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.edu-lvl p{
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.edu-lvl hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #da7c25 0.36%, #b923e1 106.2%);
+}
